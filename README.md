@@ -18,5 +18,5 @@ Now open [localhost:5001/date/](http://localhost:5001/date/) in your your browse
 
 It will output date at every request untill the limit is reached for the last hour  (with the heaaders : X-RateLimit-Limit , X-RateLimit-Remaining ). 
 
-The limit and the period can be changed in config file **conf.ini**
+## The limit and the period can be changed in config file **conf.ini**
 
