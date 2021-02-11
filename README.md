@@ -9,7 +9,7 @@ Build docker image:
 Now run the docker image:
 ```docker run -p 5001:5000 -d flask-app```
 
-Now open [localhost:5001/date/](https://0.0.0.0:5001/date) in your your browser.
+Now open [localhost:5001/date/](https://localhost:5001/date) in your your browser.
 
 It will output date at every request untill the limit is reached for the last hour  (with the heaaders : X-RateLimit-Limit , X-RateLimit-Remaining ). 
 The limit and the period can be changed in config file conf.ini
